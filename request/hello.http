@@ -1,0 +1,68 @@
+@host = localhost
+
+###
+
+GET http://{{host}}:9010
+
+### 
+
+POST http://{{host}}:9010/json
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
+### 
+
+GET http://{{host}}:9010/error
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
+### 
+
+GET http://{{host}}:9010/error2
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
+### 
+
+GET http://{{host}}:9010/error3
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
+
+### 
+
+GET http://{{host}}:9010/data
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
+
+### 
+
+GET http://{{host}}:9010/404
+Content-Type: application/json
+
+{
+  "name": "lxj",
+  "age": 30
+}
+
